@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behaviour:smooth;
+  }
+.navbar {
+  overflow: hidden;
+  background-color:RGBA(0, 0, 0, 0.6);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.bgimage
+{
+    background-image:url("gg1.jpg");
+    width:100%;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    filter:blur(px);
+}
+
+
+ul li.active a{
+    background-color: transparent;
+    color: #D6B530;
+}
+.logo p{
+padding-top:35px;
+}
+
+.logo img{
+float:left;
+width: 140px;
+padding: 10px ;
+height: 100px;
+}
+
+.logo font{
+    font-family:Edwardian Script;
+    padding: 35%;
+
+}
+.title img{
+width: 160px;
+height: 120px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title h1{
+    color:#EADA9D;
+    font-family: Algerian;
+    font-size: 40px;
+}
+.title p{
+    margin: 10px 0 40px 0px;
+    font-size: 14px;
+    
+    color: aliceblue;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 43%;
+    background: transparent;
+    transform: translate(-50%,-50);
+}
+
+.btn{
+    border: 1px solid #EADA9D;
+    padding:  12px 34px ;
+    color: #fff;
+    text-decoration:none;
+    position: relative;
+    transition:1s;
+    cursor: pointer;
+    display: inline-block;
+}
+.btn:hover
+{
+    background-color:#EADA9D;
+    color: white;
+}
+
+
+/*------------------------------------Menu of the bakery------------------------------------*/
+
+.Menu
+{
+    border:2px solid black;
+    margin : auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin: 5%;   
+   /---display:flex;---/
+    justify-content: space-between;
+}
+
+.course-col{
+   
+    flex-basis: 31%;
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2) ;
+
+}
+
+
+
+
+/*------------------------------------------------------------------------------MEET OUR TEAM-------------------------------------------------------------------*/
+.team{
+    border:2px solid black;
+    font-family: 'josefine sans',sans-serif;
+    width:80%;
+    height: 90%;
+  margin: auto;
+  background-color: azure;
+  padding: 5%;
+
+
+}
+
+.team h1{
+    font-family: 'Allura',cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.team p{
+    text-align: center;
+
+}
+
+.row {
+ 
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team-col{
+padding-top: 20%;
+padding: 2%;
+}
+
+.row .team-col img{
+    width: 20%;
+}
+
+
+
+.layer{
+    color:white ;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 600px;
+    padding: 2px;
+    position: relative;
+}
+
+.layer h3{
+    align-items:unset;
+    color: #c64464;
+    font-size: 36px;
+    margin-left: 60%;
+}
+
+
+.layer p{
+color: rgb(0, 0, 0.7);
+font-size: 26px;
+margin-left: 60%;
+}
+
+
+.team-col:hover{
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.2) ;
+}
+
+
+/*------------------------------------------------------------ABOUT US----------------------------------------*/
+.about{
+width: 80%;
+margin: auto;
+text-align: center;
+padding: 10%;
+}
+
+.about h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about p{
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.about-col{
+    border:2px solid black;
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.about-col:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  /*------------------------------------------------BLOG--------------------------------------------*/
+  .Blog{
+border:2px solid black;
+width:80%;
+height: 90%;
+margin: auto;
+background-color: azure;
+padding: 10%;
+}
+
+.Blog .log-col .h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Blog .log-col p{
+  font-family: Perpetua;
+  line-height: 1cm;
+
+}
+
+.blog-col{
+text-align:center;
+}
+.blog-col:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+/*---------------------------------------ratings------------------------------------------------------------*/
+.reviews{
+    border:2px solid black;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.reviews-col{
+    border:2px solid black;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.reviews-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.reviews-col p{
+    padding: 0;    
+}
+
+.reviews-col h3{
+    margin-top: 15px;
+    text-align: left;
+    
+}
+
+.reviews-col {
+    opacity:0.2;
+  }
+  .reviews-col:hover{
+    opacity:1;
+  }
+
+  /*-------------------------------------CONTACT--------------------------------*/
+
+  .cta{
+      border:2px solid black;    
+      margin: 100px auto;
+      width: 80%;
+      background-color:#f6f4ef;
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+      text-align: 100px 0;
+  }
+  
+  .cta h1{
+      color: rgb(11, 10, 10);
+      margin: 40px;
+      padding: 0;
+
+  }
+
+  .bg1image
+  {
+      background-image:url("contact.jpg");
+      width:100%;
+      height: 40vh;
+      background-size:cover;
+      background-position:center;
+      position: relative;
+      filter:blur(px);
+  }
+  
+  .hero-btn{
+  position: absolute;
+  top: 62%;
+  left: 45%;
+  background: transparent;
+  transform: translate(-50%,-50);
+}
+
+  .hero-btn{
+    padding: auto 12px 34px ;
+    color: #fff;
+    text-decoration:none;
+    position: relative;
+    transition:1s;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .hero-btn:hover {
+  background-color:red;
+    color: rgb(7, 0, 0);
+  }
+
